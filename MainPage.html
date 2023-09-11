@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MainPage.css">
+    <title>ShopFlix</title>
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li><img src="https://cdn.dribbble.com/users/879758/screenshots/6112092/media/7cfb0221081b2ee4dacb2cc8518dc041.png?resize=400x0" alt=""><button>Dashboard</button></li>
+            <li><button class="prdct" style="cursor: pointer;margin-top: 7rem;">Products</button></li>
+            <li><button id="addproduct" class="add">Add Product</button></li>
+            <li><button id="addproduct1" class="add">Delete Product</button></li>
+        </ul>
+    </nav>
+    <div id="productList"></div>
+    <div class="addform" id="form">
+        <button id="cross">X</button>
+        <h1>Add Your Product</h1>
+        <input type="text" placeholder="Image Url" id="imageUrl" style="margin-bottom: 1rem;"><br>
+        <input type="text" placeholder="Product Name" id="name"><br>
+        <input type="text" placeholder="Product Price" style="margin-top: 1rem;" id="price"><br>
+        <input type="number" name="" id="items"><span style="margin-left: 2rem;font-weight: 700;">No. of Items</span><br>
+        <button id="submit">Add</button>
+    </div>
+
+    <div class="addform" id="form1">
+        <button id="cross1">X</button>
+        <h1>Delete Your Product</h1>
+        <input type="text" placeholder="Product Name" id="name1"><br>
+        <input type="number" name="" id="items1"><span style="margin-left: 2rem;font-weight: 700;">No. of Items</span><br>  
+        <button id="submit1">Delete</button>
+    </div>
+    <script src="MainPage.js"></script>
+</body>
+</html>    
+
+
+
